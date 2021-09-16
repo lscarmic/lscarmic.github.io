@@ -12,7 +12,7 @@ email: lscarmic@tva.gov
 website: lscarmic.github.io
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
 twitter_username: ileec
@@ -101,6 +101,8 @@ content:
           Georgia Tech offeres four areas of MS specialization. I've chosen Machine Learning while tailoring elective classes to 
           include data visulaization, statistic analysis and simulation, as well as fundamental computer system topics. 
 
+          - Technologies: <mask>C</mask><mask>Operating Systems</mask><mask>Python</mask><mask>JavaScript</mask>
+          <mask>D3</mask><mask>Arena</mask>
           - Current GPA: 4.0
       - layout: left
         title: Tennessee Technological University
