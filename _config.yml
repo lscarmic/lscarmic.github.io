@@ -48,10 +48,14 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Lee and I'm a senior electrical engineer in Control Center Design and Speical Projects. Over the past 16+ years
-  I've worked to incrementally moderize TVA's telecommunication sytem. 
+  Hi, my name is Lee and I'm a senior electrical engineer in Control Center Design and Speical Projects. Over 
+  the past 16+ years I've worked to incrementally moderize TVA's telecommunication sytem. From extending last 
+  mile communications to rural areas of the valley, to organizing and automating network device information, I 
+  have always been looking for ways to apply innovatinve tech soluitions to really big workplace challenges. Working
+  smarter to squeeze the most accuracy, efficiency, and ___ out of yada yada is the constant goal.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  The things that I currently have the most experience working with are: <mark>Python</mark><mark>MongoDB</mark>
+  <mark>JavaScript</mark><mark>D3</mark>
 
 content:
   - title: Projects # Title for the section
@@ -111,7 +115,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Georgia Tech offeres four areas of MS specialization. I've chosen Machine Learning while tailoring elective classes to 
           include topics in data visulaization with <mark>JavaScript</mark> and <mark>D3</mark>, statistical analysis and simulation in <mark>Python</mark> and <mark>Arena</mark>, as well as fundamental 
-          computer system topics.
+          computer systems topics such as operating systems
 
           - Current GPA: 4.0
       - layout: left
