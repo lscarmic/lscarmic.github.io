@@ -119,7 +119,13 @@ content:
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            
+            - Engineered and configured many telecommunciation solutions for substation connectivity including fiber optic, microwave, satellite, and cellular
+            technologies.
+            - Engineered and configured many end devices in support of SCADA (supervisory control and data acquisition) including RTUs, 
+            - Engineered and designed many substation support systems including 48 VDC batttery systems.
+            - 2009 PSO Employee of the Year
+            - Participated in employee groups such as the PCS Employee Council. 
+            - Represented my business unit in charity activities such as the Combined Federal Campaign and Day of Caring events.
 
       - layout: left
         title: Naval Surface Warfare Center - Dahlgren, VA
@@ -149,6 +155,7 @@ content:
         title: Tennessee Technological University
         caption: 2002 - 2004
         sub_title: MS, Electrical Engineering
+        description: | # this will include new lines to allow paragraphs
           My MS coursework and thesis topics centered around telecommunications, digital systems, and computer networking. 
 
           - My thesis "Comparison and Characterization of Modern Layer-2 Ethernet Survivability Protocols" looked at various modern (at the time)
@@ -160,26 +167,20 @@ content:
         sub_title: BS, Electrical Engineering
         # # quote: >
         # #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        # description: | # this will include new lines to allow paragraphs
-        #   Georgia Tech offeres four areas of MS specialization. I've chosen Machine Learning while tailoring elective classes to 
-        #   include data visulaization, statistic analysis and simulation, as well as fundamental computer system topics.
-
-
-
-
+        description: | # this will include new lines to allow paragraphs
+          These were formative years, and form I did.
 
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/images/landscape-trees.jpg "Trees")
+      Alongside my interests in computer hardware and software some of my other interests and hobbies are:
+      - Cycling - I ride and race bikes in the woods. I've done over 100 mountain bike races with a few road races sprinkled in
+      for good measure. I started riding a little over 10 years ago and have managed to clock about 55,000 miles. It has been an 
+      obsession.
+      - Woodworking - Realizing I won't be remembered for my amateur cycling achievements, I took up the hobby of woodworking for 
+      tangible results. I find it to be the perfect intersection of art and engineering.
+      - Being the best daddy to an 8-year old little girl that I can be.
 
 # Footer
 footer_show_references: true
