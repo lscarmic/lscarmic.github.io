@@ -43,7 +43,7 @@ linkedin_username: leecarmichael
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+google_analytics: "G-D216D2D80L"
 
 # About Section
 # about_title: About Me
@@ -55,10 +55,10 @@ about_content: | # this will include new lines to allow paragraphs
   have always been looking for ways to apply innovative tech solutions to really big workplace challenges. Working
   smarter to squeeze the best outcomes from every project is the name of the game I play.
 
-  As you'll see below, an interest in using data and automation tools to tackle big problems has lead me back to a 
+  As you'll see below, an interest in using data and automation tools to tackle big problems has lead me back to an 
   academic setting with the goal of formalizing my knowledge in the space of data analytics, machine learning, and, 
-  in general, computer programming. As important as any concrete skill has been the desire to continually learn throughout 
-  my career. I firmly believe having sharp tools is important to doing great work. 
+  in general, computer programming. As important as any concrete skill, the desire to be a continual learner has been 
+  a central theme of my life. I firmly believe having sharp tools is important to doing great work. 
 
   The things that I currently have the most experience working with are: <mark>Python</mark> <mark>MongoDB</mark>
   <mark>JavaScript</mark> <mark>D3</mark> <mark>Linux</mark>
@@ -72,14 +72,12 @@ content:
         sub_title: 
         description: | # this will include new lines to allow paragraphs
           CCVT failures have plagued TVA for years. As a very light exposure to the problem and the work involved to extract
-          meaning from the data we have about the problem, I completed a small and unofficial rotational assignment.
+          meaning from the current data, I completed a small and unofficial rotational assignment.
 
           - Gained a good understanding of TVA's <mark>eDNA</mark> data historian and the limitations of the contained data.
           - Gained exposure to the <mark>Avantis PRiSM</mark> tool as a method for analyzing data.
 
-          In general, these roles will apply experience with use and management of data and analytics systems (asset performance 
-          management and condition monitoring solutions), testing and assessing the condition of equipment, track asset 
-          condition, investigate specific problems, and promptly initiate actions working with appropriate TVA and vendor staff.
+          While short, this was a great introductory look at TVA's data and available analytics systems. 
 
       - layout: left # top-middle
         title: Modernizing Meter Communications
