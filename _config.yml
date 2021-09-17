@@ -59,7 +59,7 @@ about_content: | # this will include new lines to allow paragraphs
   <mark>JavaScript</mark> <mark>D3</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Major Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left # top-middle
@@ -105,7 +105,6 @@ content:
           - Included cleanup of vast amounts of data inaccuracies (~60% -> 95+% accuracy improvements) across nearly 8,000 networks containing
           18,000 devices and nearly 25,000 individual host IP addresses.
       
-          
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -147,19 +146,23 @@ content:
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           Georgia Tech offeres four areas of MS specialization. I've chosen Machine Learning while tailoring elective classes to 
-          include topics in data visulaization with <mark>JavaScript</mark> and <mark>D3</mark>, statistical analysis and simulation in <mark>Python</mark> and <mark>Arena</mark>, as well as fundamental 
-          computer systems topics such as operating systems
+          include topics in data visulaization with <mark>JavaScript</mark> and <mark>D3</mark>, statistical analysis and simulation in 
+          <mark>Python</mark> and <mark>Arena</mark>, a discrete-event simulation tool, as well as fundamental computer systems topics 
+          that have involved <mark>C</mark> programming core OS functionality such as threading, inter-process communication, and networking.
 
           - Current GPA: 4.0
+          - Progress - 40% complete
+          - Estimated completion date: Dec 2024 (pace of two classes per year)
       - layout: left
         title: Tennessee Technological University
         caption: 2002 - 2004
         sub_title: MS, Electrical Engineering
         description: | # this will include new lines to allow paragraphs
-          My MS coursework and thesis topics centered around telecommunications, digital systems, and computer networking. 
+          TTU didn't offer explicit specialization areas, but my MS coursework and thesis topics centered around telecommunications, 
+          digital systems, and computer networking. 
 
-          - My thesis "Comparison and Characterization of Modern Layer-2 Ethernet Survivability Protocols" looked at various modern (at the time)
-          methods for improving the reliability of computer networks. 
+          - My thesis, "Comparison and Characterization of Modern Layer-2 Ethernet Survivability Protocols", looked at various modern 
+          (at the time)methods for improving the reliability of computer networks. 
 
       - layout: left
         title: Tennessee Technological University
@@ -174,13 +177,14 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in computer hardware and software some of my other interests and hobbies are:
+      Alongside my interests in computer hardware and software, some of my other interests and hobbies are:
       - Cycling - I ride and race bikes in the woods. I've done over 100 mountain bike races with a few road races sprinkled in
       for good measure. I started riding a little over 10 years ago and have managed to clock about 55,000 miles. It has been an 
-      obsession.
-      - Woodworking - Realizing I won't be remembered for my amateur cycling achievements, I took up the hobby of woodworking for 
-      tangible results. I find it to be the perfect intersection of art and engineering.
-      - Being the best daddy to an 8-year old little girl that I can be.
+      obsession with doing physically challenging events and I think I'm a better person for it.
+      - Woodworking - Realizing I won't be remembered for my amateur cycling achievements, I took up the hobby of woodworking to turn
+      my free time into a tangible result. I find it to be the perfect intersection of art and engineering. I only make furniture for 
+      myself and have completed several large pieces including a chest of drawers, five chairs, and a few tables.
+      - Being the best daddy to an 8-year old little girl that I can be. 
 
 # Footer
 footer_show_references: true
