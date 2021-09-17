@@ -73,10 +73,12 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Moving IP data management from g
+          TVA, and CCD&SP specifically, has always had a need to collect and organize IP address information. From spradsheets to
+          MS Access to BlueCat Proteus, the organization has had suboptimal solutions in place for keeping the most fundamental
+          records for a networking group.
         description: | # this will include new lines to allow paragraphs
-          Telecom has always had a need to collect and organize IP address information. 
-          Fifteen years ago the group used MS Access supplemented with spreadsheets to 
+          - Lead engineer on the transition to Infoblox DDI
+          -- this 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
