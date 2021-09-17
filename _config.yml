@@ -55,7 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
   have always been looking for ways to apply innovative tech solutions to really big workplace challenges. Working
   smarter to squeeze the best outcomes from every project is the name of the game I play.
 
-  As you'll see below, an interest in using data and automation tools to tackle big problems has lead me back to an 
+  As you'll see below, an interest in using data and automation tools to tackle big problems has led me back to an 
   academic setting with the goal of formalizing my knowledge in the space of data analytics, machine learning, and, 
   in general, computer programming. As important as any concrete skill, the desire to be a continual learner has been 
   a central theme of my life. I firmly believe having sharp tools is important to doing great work. 
@@ -85,15 +85,15 @@ content:
           Metering Services and Power Billing have always had a need for a stand-alone, low-cost networking solution for simple
           meter interrogation. A capable router equipped with a cellular interface turned out to be the perfect solution.
 
-          - Lead engineer on the initial installation of nearly 1000 3G cellular routers.
+          - Lead engineer on the initial installation of nearly 1,000 3G cellular routers.
           - Designed and orchestrated the move of the devices from the public Internet to a private wireless solution.
           - Designed and orchestrated the move from 3G to 4G cellular.
           - Implemented and configured the vendor system for asset tracking and monitoring.
           - Acted as the liaison between TVA and the device manufacture to identify and diagnose issues, as well as integrate 
-          and implement of any required fix.
+          and implement any required fix.
           - Implemented zero-touch provisioning (ZTP) system for 700 new 4G devices. The move to 4G coincided with much of the 
           network automation efforts within CCD&SP (see below), thus I was able to leverage my own <mark>Python</mark> expertise 
-          to implement a ZTP system. This reduced per device configuration and installation time from hours to minutes, saving TVA 
+          to implement a ZTP system. This reduced per-device configuration and installation time from hours to minutes, saving TVA 
           huge amounts of time and energy.
     
       - layout: left # top-middle
@@ -105,7 +105,7 @@ content:
           - Lead engineer on proof-of-concept, selection, and implementation of <mark>MongoDB</mark> as a fast and scalable database 
           for network device information.
           - Lead developer of solutions for programmatically querying, verifying, and recording device properties and configuration details.
-          These capabilities have directly lead to authoritative knowledge of the telecommunications system for quick and accurate reporting to 
+          These capabilities have directly lead to authoritative knowledge of telecommunications system assets for quick and accurate reporting to 
           compliance agencies regarding various security inquiries. 
 
       - layout: left # top-middle
