@@ -49,11 +49,11 @@ linkedin_username: leecarmichael
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Lee and I'm a senior electrical engineer in Control Center Design and Speical Projects here at TVA. Over 
-  the past 16+ years I've worked to incrementally moderize TVA's telecommunication sytem. From extending last 
+  Hi, my name is Lee and I'm a senior electrical engineer in Control Center Design and Special Projects here at TVA. Over 
+  the past 16+ years I've worked to incrementally modernize TVA's telecommunication system. From extending last 
   mile communications to rural areas of the valley, to organizing and automating network device information and configurations, I 
-  have always been looking for ways to apply innovatinve tech soluitions to really big workplace challenges. Working
-  smarter to sqeeze the best outcomes from every project is the name of the game I play.
+  have always been looking for ways to apply innovative tech solutions to really big workplace challenges. Working
+  smarter to squeeze the best outcomes from every project is the name of the game I play.
 
   The things that I currently have the most experience working with are: <mark>Python</mark> <mark>MongoDB</mark>
   <mark>JavaScript</mark> <mark>D3</mark>
@@ -73,7 +73,7 @@ content:
           - Designed and orchestrated the move of the devices from the public Internet to a private wireless solution.
           - Designed and orchestrated the move from 3G to 4G cellular.
           - Implemented and configured the vendor system for asset tracking and monitoring.
-          - Implemented zero-touch provisiong (ZTP) system for 700 new 4G devices. The move to 4G coincided with much of the 
+          - Implemented zero-touch provisioning (ZTP) system for 700 new 4G devices. The move to 4G coincided with much of the 
           network automation efforts within CCD&SP (see below), thus I was able to leverage my own <mark>Python</mark> expertise 
           to implement a ZTP system. This reduced per device configuration and installation time from hours to minutes, saving TVA 
           huge amounts of time and energy.
@@ -85,7 +85,7 @@ content:
           Stemming from accomplishments of cleaning data in the CCD&SP IP address management system, the realization was
           made that more sophisticated tasks could be carried out using programmatic techniques.
 
-          - Lead engineer on proof-of-concept, selection, and implementaiton of <mark>MongoDB<MongoDB</mark> as a fast and scalable database for network device
+          - Lead engineer on proof-of-concept, selection, and implementation of <mark>MongoDB<MongoDB</mark> as a fast and scalable database for network device
           information.
           - Lead developer of solutions for programmatically querying, verifying, and recording device properties and configuration details.
           These capabilities have directly lead to authoritative knowledge of the telecommunications system for quick and accurate reporting to 
@@ -96,16 +96,17 @@ content:
         title: IP Address Management System Upgrade
         sub-title: BlueCat Proteus to Infoblox DDI
         description: | # this will include new lines to allow paragraphs
-          TVA Transmission has always had a need to collect and organize large amounts of IP address information. From spradsheets to
-          Microsoft Access to BlueCat Proteus, suboptimal implementations of various solutions have been in place with the sole pupose
-          of being an accuracte information repository. The resulting data inaccuracies have lead to countless hours of work discovering and correctingaddressing
-          mistakes that could have easily been avoided.
+          TVA Transmission has always had a need to collect and organize large amounts of IP address information. From spreadsheets to
+          Microsoft Access to BlueCat Proteus, suboptimal implementations of various solutions have been in place with the sole purpose
+          of being an accurate information repository. The resulting data inaccuracies have lead to countless hours of work discovering 
+          and correcting addressing mistakes that could have easily been avoided.
 
           - Lead engineer on the transition to <mark>Infoblox DDI</mark>.
           - Included cleanup of vast amounts of data inaccuracies (~60% -> 95+% accuracy improvements) across nearly 8,000 networks containing
           18,000 devices and nearly 25,000 individual host IP addresses.
-          - Devleoped a <mark>Python</mark> library that interfaced with the Infoblox API to automate the initial population of the new IPAM system.
-          - Leveraged the library to streamline continuous data management and reporting, including a <mark>Django</mark> powered web interface for field personel.
+          - Developed a <mark>Python</mark> library that interfaced with the Infoblox API to automate the initial population of the new IPAM system.
+          - Leveraged the library to streamline continuous data management and reporting, including a <mark>Django</mark> powered web interface 
+          for field personnel.
       
 
   - title: Experience # Title for the section
@@ -120,10 +121,10 @@ content:
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - Engineered and configured many telecommunciation solutions for substation connectivity including fiber optic, microwave, satellite, and cellular
+            - Engineered and configured many telecommunication solutions for substation connectivity including fiber optic, microwave, satellite, and cellular
             technologies.
             - Engineered and configured many end devices in support of SCADA (supervisory control and data acquisition) including RTUs, IO modules, and...
-            - Engineered and designed many substation support systems including 48 VDC batttery systems.
+            - Engineered and designed many substation support systems including 48 VDC battery systems.
             - 2009 PSO Employee of the Year
             - Participated in employee advocacy groups such as the PCS Employee Council. 
             - Represented my business unit in charity activities such as the Combined Federal Campaign and Day of Caring events.
@@ -147,8 +148,8 @@ content:
         # quote: >
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          Georgia Tech offeres four areas of MS specialization. I've chosen Machine Learning while tailoring elective classes to 
-          include topics in data visulaization with <mark>JavaScript</mark> and <mark>D3</mark>, statistical analysis and simulation in 
+          Georgia Tech offers four areas of MS specialization. I've chosen Machine Learning while tailoring elective classes to 
+          include topics in data visualization with <mark>JavaScript</mark> and <mark>D3</mark>, statistical analysis and simulation in 
           <mark>Python</mark> and <mark>Arena</mark>, a discrete-event simulation tool, as well as fundamental computer systems topics 
           that have involved <mark>C</mark> programming core OS functionality such as threading, inter-process communication, and networking.
 
