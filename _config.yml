@@ -76,13 +76,13 @@ content:
           - Implemented zero-touch provisiong (ZTP) system for 700 new 4G devices. The move to 4G coincided with much of the 
           network automation efforts within CCD&SP (see below), thus I was able to leverage my own <mark>Python</mark> expertise 
           to implement a ZTP system. This reduced per device configuration and installation time from hours to minutes, saving TVA 
-          huge amounts of time and energy 
+          huge amounts of time and energy.
     
       - layout: left # top-middle
         title: Network Automation and MongoDB
         sub-title: Infoblox API to <mark>MongoDB<MongoDB>
         description: | # this will include new lines to allow paragraphs
-          Stemming from accomplishemtn of cleaning data in the CCD&SP IP address management system, the realization was
+          Stemming from accomplishments of cleaning data in the CCD&SP IP address management system, the realization was
           made that more sophisticated tasks could be carried out using programmatic techniques.
 
           - Lead engineer on proof-of-concept, selection, and implementaiton of <mark>MongoDB<MongoDB</mark> as a fast and scalable database for network device
@@ -104,6 +104,8 @@ content:
           - Lead engineer on the transition to <mark>Infoblox DDI</mark>.
           - Included cleanup of vast amounts of data inaccuracies (~60% -> 95+% accuracy improvements) across nearly 8,000 networks containing
           18,000 devices and nearly 25,000 individual host IP addresses.
+          - Devleoped a <mark>Python</mark> library that interfaced with the Infoblox API to automate the initial population of the new IPAM system.
+          - Leveraged the library to streamline continuous data management and reporting, including a <mark>Django</mark> powered web interface for field personel.
       
 
   - title: Experience # Title for the section
