@@ -62,9 +62,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left # top-middle
-        title: IP Address Management System Upgrade
+        title: Network Automation 
         # link: github.com/sproogen
-        link_text: BlueCat Proteus to Infoblox DDI
+        # link_text: BlueCat Proteus to Infoblox DDI
         additional_links:
           # - title:  sproogen/modern-resume-theme
           #   icon: fab fa-github
@@ -75,11 +75,35 @@ content:
         # quote: >
         #   asdf
         description: | # this will include new lines to allow paragraphs
-          TVA, and CCD&SP specifically, has always had a need to collect and organize IP address information. From spradsheets to
-          MS Access to BlueCat Proteus, the organization has had suboptimal solutions in place for keeping the most fundamental
-          records for a networking group.
+          Stemming from the work completed to clean up the data in the CCD&SP IP address management system, the realization was
+          made that more sophisticated tasks could be carried out using 
 
           - Lead engineer on the transition to Infoblox DDI
+          - Included cleanup of vast amounts of data inaccuracies (~60% -> 95+% accuracy improvements) across nearly 8,000 networks containing
+          18,000 devices and nearly 25,000 individual host IP addresses.
+      - layout: left # top-middle
+        title: IP Address Management System Upgrade
+        # link: github.com/sproogen
+        # link_text: BlueCat Proteus to Infoblox DDI
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   asdf
+        description: | # this will include new lines to allow paragraphs
+          TVA, and CCD&SP specifically, has always had a need to collect and organize large amounts of IP address information. From spradsheets to
+          MS Access to BlueCat Proteus, suboptimal implementations of various solutions have been in place with the purpose of keeping the most fundamental
+          records for a networking group. The resulting data inaccuracies have resulted in countless hours of work cleaning up addressing
+          mistakes that could have easily been avoided.
+
+          - Lead engineer on the transition to Infoblox DDI
+          - Included cleanup of vast amounts of data inaccuracies (~60% -> 95+% accuracy improvements) across nearly 8,000 networks containing
+          18,000 devices and nearly 25,000 individual host IP addresses.
+      
           
 
   - title: Experience # Title for the section
