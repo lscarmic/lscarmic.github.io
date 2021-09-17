@@ -118,9 +118,9 @@ content:
       - layout: left
         title: Naval Surface Warfare Center - Dahlgren, VA
         link: navsea.navy.mil/Home/Warfare-Centers/NSWC-Dahlgren/
-        # link_text: boringcompany.com
-        sub_title: Senior Electrical Engineer
-        caption: December 2004 - Present
+        link_text: NSWC - Dahlgren
+        sub_title: Graduate Intern
+        caption: 2002-2004
         description: | # this will include new lines to allow paragraphs
             Participated in IEEE 1541 wireless sensor working group meetings. Performed high-level performance testing of IEEE 802.11 technologies. Characterized performance of Layer 2 survivability protocols.
 
