@@ -67,35 +67,41 @@ content:
         sub_title: 
         description: | # this will include new lines to allow paragraphs
           Metering Services and Power Billing have always had a need for a stand-alone low-cost networking solution for simple
-          meter interrogation. A capable, low-cost, cellular equipped router turned out to be the perfect solution.
+          meter interrogation. A capable router equipped with a cellular interface turned out to be the perfect solution.
 
           - Lead engineer on the initial installation of nearly 1000 3G cellular routers.
           - Designed and orchestrated the move of the devices from the public Internet to a private wireless solution.
           - Designed and orchestrated the move from 3G to 4G cellular.
-          - The move to 4G coincided with much of the network automation efforts going on within CCD&SP, thus, I was able
-          to leverage <mark>Python</mark> expertise to implement a zero-touch provisioning system for 700 3G devices in the fleet.
+          - Implemented and configured the vendor system for asset tracking and monitoring.
+          - Implemented zero-touch provisiong (ZTP) system for 700 new 4G devices. The move to 4G coincided with much of the 
+          network automation efforts within CCD&SP (see below), thus I was able to leverage my own <mark>Python</mark> expertise 
+          to implement a ZTP system. This reduced per device configuration and installation time from hours to minutes, saving TVA 
+          huge amounts of time and energy 
     
       - layout: left # top-middle
-        title: Network Automation
+        title: Network Automation and MongoDB
         sub-title: Infoblox API to <mark>MongoDB<MongoDB>
         description: | # this will include new lines to allow paragraphs
           Stemming from accomplishemtn of cleaning data in the CCD&SP IP address management system, the realization was
           made that more sophisticated tasks could be carried out using programmatic techniques.
 
-          - Lead engineer on the transition to <mark>Infoblox DDI</mark>
-          - Included cleanup of vast amounts of data inaccuracies (~60% -> 95+% accuracy improvements) across nearly 8,000 networks containing
-          18,000 devices and nearly 25,000 individual host IP addresses.
+          - Lead engineer on proof-of-concept, selection, and implementaiton of <mark>MongoDB<MongoDB> as a fast and scalable database for network device
+          information.
+          - Lead developer of solutions for programmatically querying, verifying, and recording device properties and configuration details.
+          These capabilities have directly lead to authoritative knowledge of the telecommunications system for quick and accurate reporting to 
+          compliance agencies regarding various security inquiries. 
+          
 
       - layout: left # top-middle
         title: IP Address Management System Upgrade
         sub-title: BlueCat Proteus to Infoblox DDI
         description: | # this will include new lines to allow paragraphs
-          TVA, and CCD&SP specifically, has always had a need to collect and organize large amounts of IP address information. From spradsheets to
-          MS Access to BlueCat Proteus, suboptimal implementations of various solutions have been in place with the purpose of keeping the most fundamental
-          records for a networking group. The resulting data inaccuracies have resulted in countless hours of work cleaning up addressing
+          TVA Transmission has always had a need to collect and organize large amounts of IP address information. From spradsheets to
+          Microsoft Access to BlueCat Proteus, suboptimal implementations of various solutions have been in place with the sole pupose
+          of being an accuracte information repository. The resulting data inaccuracies have lead to countless hours of work discovering and correctingaddressing
           mistakes that could have easily been avoided.
 
-          - Lead engineer on the transition to <mark>Infoblox DDI</mark>
+          - Lead engineer on the transition to <mark>Infoblox DDI</mark>.
           - Included cleanup of vast amounts of data inaccuracies (~60% -> 95+% accuracy improvements) across nearly 8,000 networks containing
           18,000 devices and nearly 25,000 individual host IP addresses.
       
@@ -110,10 +116,10 @@ content:
         # link_text: boringcompany.com
         sub_title: Senior Electrical Engineer
         caption: December 2004 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            
 
       - layout: left
         title: Naval Surface Warfare Center - Dahlgren, VA
@@ -142,21 +148,21 @@ content:
       - layout: left
         title: Tennessee Technological University
         caption: 2002 - 2004
-        sub_title: MS Electrical Engineering
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          Georgia Tech offeres four areas of MS specialization. I've chosen Machine Learning while tailoring elective classes to 
-          include data visulaization, statistic analysis and simulation, as well as fundamental computer system topics. 
+        sub_title: MS, Electrical Engineering
+          My MS coursework and thesis topics centered around telecommunications, digital systems, and computer networking. 
+
+          - My thesis "Comparison and Characterization of Modern Layer-2 Ethernet Survivability Protocols" looked at various modern (at the time)
+          methods for improving the reliability of computer networks. 
+
       - layout: left
         title: Tennessee Technological University
         caption: 1996 - 2002
         sub_title: BS, Electrical Engineering
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          Georgia Tech offeres four areas of MS specialization. I've chosen Machine Learning while tailoring elective classes to 
-          include data visulaization, statistic analysis and simulation, as well as fundamental computer system topics.
+        # # quote: >
+        # #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        # description: | # this will include new lines to allow paragraphs
+        #   Georgia Tech offeres four areas of MS specialization. I've chosen Machine Learning while tailoring elective classes to 
+        #   include data visulaization, statistic analysis and simulation, as well as fundamental computer system topics.
 
 
 
