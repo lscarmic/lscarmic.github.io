@@ -128,7 +128,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           TVA has offered IP products to provide customers with an opportunity to receive monthly credits on their power bill in 
           exchange for curtailing their power usage to a specified protected demand amount during times of TVA power system need. 
-          Similarly, generation partners have been given the opportunit to generate up to 5% of their average electric needs from 
+          Similarly, generation partners have been given the opportunity to generate up to 5% of their average electric needs from 
           distributed resources. Both of the customer solution require communications paths between TVA and the LPC metering point. 
 
           - Technical lead and point of contact between all LPCs and TVA. 
