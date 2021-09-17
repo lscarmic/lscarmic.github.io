@@ -55,6 +55,11 @@ about_content: | # this will include new lines to allow paragraphs
   have always been looking for ways to apply innovative tech solutions to really big workplace challenges. Working
   smarter to squeeze the best outcomes from every project is the name of the game I play.
 
+  As you'll see below, an interest in using data and automation tools to tackle big problems has lead me back to a 
+  academic setting with the goal of formalizing my knowledge in the space of data analytics, machine learning, and, 
+  in general, computer programming. As important as any concrete skill has been the desire to continually learn throughout 
+  my career. Having sharp tools is important to doing great work. 
+
   The things that I currently have the most experience working with are: <mark>Python</mark> <mark>MongoDB</mark>
   <mark>JavaScript</mark> <mark>D3</mark>
 
@@ -107,7 +112,6 @@ content:
           - Developed a <mark>Python</mark> library that interfaced with the Infoblox API to automate the initial population of the new IPAM system.
           - Leveraged the library to streamline continuous data management and reporting, including a <mark>Django</mark> powered web interface 
           for field personnel.
-      
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
