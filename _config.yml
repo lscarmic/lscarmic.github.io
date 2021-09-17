@@ -1,6 +1,7 @@
 # Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
+# https://github.com/sproogen/modern-resume-theme/blob/master/README.md
 
 # Content configuration version
 version: 2
@@ -63,17 +64,7 @@ content:
     content:
       - layout: left # top-middle
         title: Modernizing Meter Communications
-        # link: github.com/sproogen
-        # link_text: BlueCat Proteus to Infoblox DDI
-        additional_links:
-          # - title:  sproogen/modern-resume-theme
-          #   icon: fab fa-github
-          #   url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   asdf
+        sub_title: 
         description: | # this will include new lines to allow paragraphs
           Metering Services and Power Billing have always had a need for a stand-alone low-cost networking solution for simple
           meter interrogation. A capable, low-cost, cellular equipped router turned out to be the perfect solution.
@@ -86,17 +77,7 @@ content:
     
       - layout: left # top-middle
         title: Network Automation
-        # link: github.com/sproogen
-        # link_text: BlueCat Proteus to Infoblox DDI
-        additional_links:
-          # - title:  sproogen/modern-resume-theme
-          #   icon: fab fa-github
-          #   url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   asdf
+        sub-title: Infoblox API to <mark>MongoDB<MongoDB>
         description: | # this will include new lines to allow paragraphs
           Stemming from accomplishemtn of cleaning data in the CCD&SP IP address management system, the realization was
           made that more sophisticated tasks could be carried out using programmatic techniques.
@@ -104,19 +85,10 @@ content:
           - Lead engineer on the transition to <mark>Infoblox DDI</mark>
           - Included cleanup of vast amounts of data inaccuracies (~60% -> 95+% accuracy improvements) across nearly 8,000 networks containing
           18,000 devices and nearly 25,000 individual host IP addresses.
+
       - layout: left # top-middle
         title: IP Address Management System Upgrade
-        # link: github.com/sproogen
-        # link_text: BlueCat Proteus to Infoblox DDI
-        additional_links:
-          # - title:  sproogen/modern-resume-theme
-          #   icon: fab fa-github
-          #   url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   asdf
+        sub-title: BlueCat Proteus to Infoblox DDI
         description: | # this will include new lines to allow paragraphs
           TVA, and CCD&SP specifically, has always had a need to collect and organize large amounts of IP address information. From spradsheets to
           MS Access to BlueCat Proteus, suboptimal implementations of various solutions have been in place with the purpose of keeping the most fundamental
@@ -149,10 +121,8 @@ content:
         # link_text: boringcompany.com
         sub_title: Senior Electrical Engineer
         caption: December 2004 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networ
+            Participated in IEEE 1541 wireless sensor working group meetings. Performed high-level performance testing of IEEE 802.11 technologies. Characterized performance of Layer 2 survivability protocols.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
