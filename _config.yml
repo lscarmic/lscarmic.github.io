@@ -113,14 +113,14 @@ content:
         description: | # this will include new lines to allow paragraphs
           TVA Transmission has always had a need to collect and organize large amounts of IP address information. From spreadsheets to
           Microsoft Access to BlueCat Proteus, suboptimal implementations of various solutions have been in place with the sole purpose
-          of being an accurate information repository. The resulting data inaccuracies have lead to countless hours of work discovering 
+          of being an accurate information repository. The resulting data inaccuracies have led to countless hours of work discovering 
           and correcting addressing mistakes that could have easily been avoided.
 
           - Lead engineer on the transition to <mark>Infoblox DDI</mark>.
           - Included cleanup of vast amounts of data inaccuracies (~60% -> 95+% accuracy improvements) across nearly 8,000 networks containing
           18,000 devices and nearly 25,000 individual host IP addresses.
           - Developed a <mark>Python</mark> library that interfaced with the Infoblox API to automate the initial population of the new IPAM system.
-          - Leveraged the library to streamline continuous data management and reporting, including a <mark>Django</mark> powered web interface 
+          - Leveraged the library to streamline continuous data management and reporting, including a simplified <mark>Django</mark> powered web interface 
           for field personnel.
 
       - layout: left # top-middle
@@ -129,14 +129,14 @@ content:
           TVA has offered IP products to provide customers with an opportunity to receive monthly credits on their power bill in 
           exchange for curtailing their power usage to a specified protected demand amount during times of TVA power system need. 
           Similarly, generation partners have been given the opportunity to generate up to 5% of their average electric needs from 
-          distributed resources. Both of the customer solution require communications paths between TVA and the LPC metering point. 
+          distributed resources. Both customer solutions require communications paths between TVA and the LPC metering point. 
 
           - Technical lead and point of contact between all LPCs and TVA. 
           - Worked hand-in-hand with TVA partners to ensure smooth device turn up, as well as technical support for any configuration
           questions or issues.
           - Operated the Transmission Test Lab endpoint for proof of concept and documentation of new gateway devices in support of Central
           Operations.
-          - Acted as a technical representative between customers and their device manufacturers, as needed.
+          - Acted as a technical representative between customers and their device manufacturers.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -152,7 +152,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             - Engineered and configured many telecommunication solutions for substation connectivity including fiber optic, microwave, satellite, and cellular
             technologies.
-            - Engineered and configured many end devices in support of SCADA (supervisory control and data acquisition) including RTUs, IO modules, and...
+            - Engineered and configured many end devices in support of SCADA (supervisory control and data acquisition) including router, switches, RTUs, and IO modules.
             - Engineered and designed many substation support systems including 48 VDC battery systems.
             - 2009 PSO Employee of the Year
             - Participated in employee advocacy groups such as the PCS Employee Council. 
@@ -181,7 +181,7 @@ content:
           Georgia Tech offers four areas of MS specialization. I've chosen Machine Learning while tailoring elective classes to 
           include topics in data visualization with <mark>JavaScript</mark> and <mark>D3</mark>, statistical analysis and simulation in 
           <mark>Python</mark> and <mark>Arena</mark>, a discrete-event simulation tool, as well as fundamental computer systems topics 
-          that have involved <mark>C</mark> programming core OS functionality such as threading, inter-process communication, and networking.
+          involving <mark>C</mark> programming core OS functionality such as threading, inter-process communication, and networking.
 
           - Current GPA: 4.0
           - Progress - 40% complete
