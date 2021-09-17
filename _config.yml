@@ -85,7 +85,7 @@ content:
           Stemming from accomplishemtn of cleaning data in the CCD&SP IP address management system, the realization was
           made that more sophisticated tasks could be carried out using programmatic techniques.
 
-          - Lead engineer on proof-of-concept, selection, and implementaiton of <mark>MongoDB<MongoDB> as a fast and scalable database for network device
+          - Lead engineer on proof-of-concept, selection, and implementaiton of <mark>MongoDB<MongoDB</mark> as a fast and scalable database for network device
           information.
           - Lead developer of solutions for programmatically querying, verifying, and recording device properties and configuration details.
           These capabilities have directly lead to authoritative knowledge of the telecommunications system for quick and accurate reporting to 
