@@ -62,7 +62,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left # top-middle
-        title: Network Automation 
+        title: Modernizing Meter Communications
         # link: github.com/sproogen
         # link_text: BlueCat Proteus to Infoblox DDI
         additional_links:
@@ -75,10 +75,33 @@ content:
         # quote: >
         #   asdf
         description: | # this will include new lines to allow paragraphs
-          Stemming from the work completed to clean up the data in the CCD&SP IP address management system, the realization was
-          made that more sophisticated tasks could be carried out using 
+          Metering Services and Power Billing have always had a need for a stand-alone low-cost networking solution for simple
+          meter interrogation. A capable, low-cost, cellular equipped router turned out to be the perfect solution.
 
-          - Lead engineer on the transition to Infoblox DDI
+          - Lead engineer on the initial installation of nearly 1000 3G cellular routers.
+          - Designed and orchestrated the move of the devices from the public Internet to a private wireless solution.
+          - Designed and orchestrated the move from 3G to 4G cellular.
+          - The move to 4G coincided with much of the network automation efforts going on within CCD&SP, thus, I was able
+          to leverage <mark>Python</mark> expertise to implement a zero-touch provisioning system for 700 3G devices in the fleet.
+    
+      - layout: left # top-middle
+        title: Network Automation
+        # link: github.com/sproogen
+        # link_text: BlueCat Proteus to Infoblox DDI
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   asdf
+        description: | # this will include new lines to allow paragraphs
+          Stemming from accomplishemtn of cleaning data in the CCD&SP IP address management system, the realization was
+          made that more sophisticated tasks could be carried out using programmatic techniques.
+
+          - Lead engineer on the transition to <mark>Infoblox DDI</mark>
           - Included cleanup of vast amounts of data inaccuracies (~60% -> 95+% accuracy improvements) across nearly 8,000 networks containing
           18,000 devices and nearly 25,000 individual host IP addresses.
       - layout: left # top-middle
@@ -100,7 +123,7 @@ content:
           records for a networking group. The resulting data inaccuracies have resulted in countless hours of work cleaning up addressing
           mistakes that could have easily been avoided.
 
-          - Lead engineer on the transition to Infoblox DDI
+          - Lead engineer on the transition to <mark>Infoblox DDI</mark>
           - Included cleanup of vast amounts of data inaccuracies (~60% -> 95+% accuracy improvements) across nearly 8,000 networks containing
           18,000 devices and nearly 25,000 individual host IP addresses.
       
