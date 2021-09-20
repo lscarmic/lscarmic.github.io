@@ -42,8 +42,8 @@ linkedin_username: leecarmichael
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-google_analytics: "G-D216D2D80L"
+gtag: "G-D216D2D80L"
+# google_analytics: "G-D216D2D80L"
 
 # About Section
 # about_title: About Me
