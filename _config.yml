@@ -8,12 +8,15 @@ version: 2
 
 # Personal info
 name: Lee Carmichael  
-title: Electrical Engineer - Control System Testing & Evaluation 
+title: Electrical Engineer/Rotational PMTM
 email: lscarmic@tva.gov
 website: lscarmic.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
+# true = site will show the dark theme for everyone
+# false = site will not show the dark theme, but it will still respect the users device preferences
+# never = site will never be shown in the dark theme
 
 # Social links
 twitter_username: ileec
@@ -63,8 +66,8 @@ about_content: | # this will include new lines to allow paragraphs
   I've continued this approach into my rotation where, as a Program Manager, Transmission Maintenance, I've used some of the 
   same tools, as well as some new ones, to ensure reliable transmission system operation and efficient utilization of resources. 
 
-  The things that I currently have the most experience working with are: <mark>Python</mark> <mark>PowerBI</mark> <mark>Linux</mark>
-  <mark>eDNA</mark> <mark>Hitachi Lumada/APM</mark>
+  The things that I currently have the most experience working with are:  <mark>PowerBI</mark> <mark>Hitachi Lumada/APM</mark> <mark>eDNA</mark>  
+  <mark>SysAid</mark> <mark>Python</mark> <mark>Linux</mark>
 
 content:
   - title: Major Projects # Title for the section
@@ -74,30 +77,29 @@ content:
         title: APM Data Cleanup and Reporting
         sub_title: 
         description: | # this will include new lines to allow paragraphs
-          The Hitachi Lumada/APM software used by the APC integrates data from many sources at TVA. Inconsistencies in external data 
-          have created large amounts of data cleanup inside Lumada. Tools like Microsoft PowerBI allow us to quickly pinpoint data
+          The Hitachi Lumada/APM software used by the APC integrates data from several data stores at TVA. Inconsistencies in external data 
+          have created large amounts of data cleanup inside Lumada/APM . Tools like Microsoft PowerBI allow us to quickly pinpoint data
           problems so they can be resolved easily. 
 
-          - Leveraged PowerBI to identify incorrect bushing data on transformers and breakers. 
-          - Leveraged PowerBI to 
+          - Leveraged PowerBI to identify incorrect bushing data on all relevant transformers and breakers. 
 
           PowerBI has also allowed the APC to offer custom reporting to device SMEs. 
           
-          - Leveraged PowerBI to show historic trends of combustible gasses on 161KV Westing House Transformers, a very specific 
+          - Leveraged PowerBI to show historic trends of combustible gasses on 161KV Westinghouse Transformers, a very specific 
           report request that would be otherwise impossible to provide.
-          - Leverage PowerBI to better understand my own monitoring responsibilities. 
+          - Leverage PowerBI to better understand my own asset management, asset lifecycle, and condition monitoring responsibilities. 
 
       - layout: left # top-middle
         title: SysAid-APM Integrations
         sub_title: 
         description: | # this will include new lines to allow paragraphs
           Lots of work has been dedicated to modifying TVA's SysAid ticketing system to include for support asset condition ticketing
-          as well as normal network operations ticketing. A ticket reporting feature was added to Lumada assets to allow quick 
+          as well as normal network operations ticketing. A ticket reporting feature was added to Lumada/APM assets to allow quick 
           ticketing summaries for any device.
 
-          - Gained understanding of the SysAid API and PowerBI dataflows provided by other organizations, as well as Lumada limitations
+          - Gained understanding of the SysAid API and PowerBI dataflows provided by other organizations, as well as Lumada/APM limitations
           and workarounds.
-          - Provided multiple approaches and solutions for integrating ticket data into Lumada. 
+          - Provided multiple approaches and solutions for integrating ticket data into Lumada/APM. 
 
           Also served on a team to roll out asset condition ticketing to the TVA field organizations. This initiative is working to 
           gain buy-in and coordination between various TVA entities to ensure asset issues are communicated effectively and in such a 
@@ -187,9 +189,10 @@ content:
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             - Learned and operated Lumada APM to monitor, understand, and provide action to over 6000 transmission system assets.
-            - Gained deep understanding of the APIs and backends of systems including Lumada and SysAid.
+            - Gained deep understanding of the APIs and backends of TVA systems including Lumada/APM and SysAid.
             - Extended my knowledge of PowerBI and transmission assets to provide actionable reporting for transmission SMEs, 
             field personnel, and other APC coordinators.
+            - Gained understanding of asset monitoring hardware for effectiveness in turn-up and troubleshooting.
 
       - layout: left
         title: Tennessee Valley Authority
