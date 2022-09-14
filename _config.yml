@@ -78,7 +78,7 @@ content:
         sub_title: 
         description: | # this will include new lines to allow paragraphs
           The <mark>Hitachi Lumada/APM</mark> software used by the APC integrates data from several data stores at TVA. Inconsistencies in external data 
-          have created large amounts of data cleanup inside Lumada/APM . Tools like Microsoft PowerBI allow us to quickly pinpoint data
+          have created large amounts of data cleanup inside Lumada/APM . Tools like <mark>Microsoft PowerBI</mark> allow us to quickly pinpoint data
           problems so they can be resolved easily. 
 
           - Leveraged <mark>PowerBI</mark> to identify incorrect bushing data on all relevant transformers and breakers. 
@@ -188,8 +188,8 @@ content:
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - Learned and operated Lumada APM to monitor, understand, and provide action to over 6000 transmission system assets.
-            - Gained deep understanding of the APIs and backends of TVA systems including Lumada/APM and SysAid.
+            - Learned and operated <mark>Hitachi Lumada APM</mark> to monitor, understand, and provide action to over 6000 transmission system assets.
+            - Gained deep understanding of the APIs and backends of TVA systems including <mark>Hitachi Lumada/APM</mark> and <mark>SysAid</mark>.
             - Extended my knowledge of PowerBI and transmission assets to provide actionable reporting for transmission SMEs, 
             field personnel, and other APC coordinators.
             - Gained understanding of asset monitoring hardware for effectiveness in turn-up and troubleshooting.
