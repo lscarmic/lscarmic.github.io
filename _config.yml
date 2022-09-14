@@ -49,8 +49,8 @@ gtag: "G-D216D2D80L"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Lee and I'm a senior electrical engineer in Control Center Design and Special Projects here at TVA. Over 
-  the past 16+ years I've worked to incrementally modernize TVA's telecommunication system. From extending last 
+  Hi, my name is Lee and I'm an electrical engineer currently on rotation with the Asset Performance Center here 
+  at TVA. Over the past 17+ years, I've worked to incrementally modernize TVA's telecommunication system. From extending last 
   mile communications to rural areas of the valley, to organizing and automating network device information and configurations, I 
   have always been looking for ways to apply innovative tech solutions to really big workplace challenges. Working
   smarter to squeeze the best outcomes from every project is the name of the game I play.
@@ -60,13 +60,49 @@ about_content: | # this will include new lines to allow paragraphs
   in general, computer programming. As important as any concrete skill, the desire to be a continual learner has been 
   a central theme of my life. I firmly believe having sharp tools is important to doing great work. 
 
-  The things that I currently have the most experience working with are: <mark>Python</mark> <mark>MongoDB</mark>
-  <mark>JavaScript</mark> <mark>D3</mark> <mark>Linux</mark>
+  I've continued this approach into my rotation where, as a Program Manager, Transmission Maintenance, I've used some of the 
+  same tools, as well as some new ones, to ensure reliable transmission system operation and efficient utilization of resources. 
+
+  The things that I currently have the most experience working with are: <mark>Python</mark> <mark>PowerBI</mark> <mark>Linux</mark>
+  <mark>eDNA</mark> <mark>Hitachi Lumada/APM</mark>
 
 content:
   - title: Major Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left # top-middle
+        title: APM Data Cleanup and Reporting
+        sub_title: 
+        description: | # this will include new lines to allow paragraphs
+          The Hitachi Lumada/APM software used by the APC integrates data from many sources at TVA. Inconsistencies in external data 
+          have created large amounts of data cleanup inside Lumada. Tools like Microsoft PowerBI allow us to quickly pinpoint data
+          problems so they can be resolved easily. 
+
+          - Leveraged PowerBI to identify incorrect bushing data on transformers and breakers. 
+          - Leveraged PowerBI to 
+
+          PowerBI has also allowed the APC to offer custom reporting to device SMEs. 
+          
+          - Leveraged PowerBI to show historic trends of combustible gasses on 161KV Westing House Transformers, a very specific 
+          report request that would be otherwise impossible to provide.
+          - Leverage PowerBI to better understand my own monitoring responsibilities. 
+
+      - layout: left # top-middle
+        title: SysAid-APM Integrations
+        sub_title: 
+        description: | # this will include new lines to allow paragraphs
+          Lots of work has been dedicated to modifying TVA's SysAid ticketing system to include for support asset condition ticketing
+          as well as normal network operations ticketing. A ticket reporting feature was added to Lumada assets to allow quick 
+          ticketing summaries for any device.
+
+          - Gained understanding of the SysAid API and PowerBI dataflows provided by other organizations, as well as Lumada limitations
+          and workarounds.
+          - Provided multiple approaches and solutions for integrating ticket data into Lumada. 
+
+          Also served on a team to roll out asset condition ticketing to the TVA field organizations. This initiative is working to 
+          gain buy-in and coordination between various TVA entities to ensure asset issues are communicated effectively and in such a 
+          way that asset condition trends can be managed to ensure optimum operation and reliability of the TVA transmission system.
+
       - layout: left # top-middle
         title: CCVT Failure Inquiry
         sub_title: 
@@ -141,6 +177,23 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Tennessee Valley Authority
+        link: tva.gov
+        # link_text: boringcompany.com
+        sub_title: Program Manager, Transmission Maintenance
+        caption: May 2022 - Present
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            - Engineered and configured many telecommunication solutions for substation connectivity including fiber optic, microwave, satellite, and cellular
+            technologies.
+            - Engineered and configured many end devices in support of SCADA (supervisory control and data acquisition) including router, switches, RTUs, and IO modules.
+            - Engineered and designed many substation support systems including 48 VDC battery systems.
+            - 2009 PSO Employee of the Year
+            - Participated in employee advocacy groups such as the PCS Employee Council. 
+            - Represented my business unit in charity activities such as the Combined Federal Campaign and Day of Caring events.
+
       - layout: left
         title: Tennessee Valley Authority
         link: tva.gov
