@@ -77,7 +77,7 @@ content:
         title: APM Data Cleanup and Reporting
         sub_title: 
         description: | # this will include new lines to allow paragraphs
-          The <mark>Hitachi Lumada/APM software used by the APC integrates data from several data stores at TVA. Inconsistencies in external data 
+          The <mark>Hitachi Lumada/APM</mark> software used by the APC integrates data from several data stores at TVA. Inconsistencies in external data 
           have created large amounts of data cleanup inside Lumada/APM . Tools like Microsoft PowerBI allow us to quickly pinpoint data
           problems so they can be resolved easily. 
 
@@ -93,7 +93,7 @@ content:
         title: SysAid-APM Integrations
         sub_title: 
         description: | # this will include new lines to allow paragraphs
-          Lots of work has been dedicated to modifying TVA's <mark>SysAid<mark> ticketing system to include for support asset condition ticketing
+          Lots of work has been dedicated to modifying TVA's <mark>SysAid</mark> ticketing system to include for support asset condition ticketing
           as well as normal network operations ticketing. A ticket reporting feature was added to Lumada/APM assets to allow quick 
           ticketing summaries for any device.
 
