@@ -186,13 +186,10 @@ content:
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - Engineered and configured many telecommunication solutions for substation connectivity including fiber optic, microwave, satellite, and cellular
-            technologies.
-            - Engineered and configured many end devices in support of SCADA (supervisory control and data acquisition) including router, switches, RTUs, and IO modules.
-            - Engineered and designed many substation support systems including 48 VDC battery systems.
-            - 2009 PSO Employee of the Year
-            - Participated in employee advocacy groups such as the PCS Employee Council. 
-            - Represented my business unit in charity activities such as the Combined Federal Campaign and Day of Caring events.
+            - Learned and operated Lumada APM to monitor, understand, and provide action to over 6000 transmission system assets.
+            - Gained deep understanding of the APIs and backends of systems including Lumada and SysAid.
+            - Extended my knowledge of PowerBI and transmission assets to provide actionable reporting for transmission SMEs, 
+            field personnel, and other APC coordinators.
 
       - layout: left
         title: Tennessee Valley Authority
