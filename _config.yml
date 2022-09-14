@@ -87,13 +87,14 @@ content:
           
           - Leveraged <mark>PowerBI</mark> to show historic trends of combustible gasses on 161KV Westinghouse Transformers, a very specific 
           report request that would be otherwise impossible to provide.
-          - Leverage <mark>PowerBI</mark> to better understand my own asset management, asset lifecycle, and condition monitoring responsibilities. 
+          - Leverage <mark>PowerBI</mark> to better understand my own asset management, asset lifecycle, and condition monitoring responsibilities.
+          Occasionally I'm able to provide information to colleagues that expedites their own data cleanup and issue tracking efforts.
 
       - layout: left # top-middle
         title: SysAid-APM Integrations
         sub_title: 
         description: | # this will include new lines to allow paragraphs
-          Lots of work has been dedicated to modifying TVA's <mark>SysAid</mark> ticketing system to include for support asset condition ticketing
+          A great deal of work has been dedicated to modifying TVA's <mark>SysAid</mark> ticketing system to include for support asset condition ticketing
           as well as normal network operations ticketing. A ticket reporting feature was added to Lumada/APM assets to allow quick 
           ticketing summaries for any device.
 
@@ -110,7 +111,8 @@ content:
         sub_title: 
         description: | # this will include new lines to allow paragraphs
           CCVT failures have plagued TVA for years. As a very light exposure to the problem and the work involved to extract
-          meaning from the current data, I completed a small and unofficial rotational assignment.
+          meaning from the current data, I completed a small and unofficial rotational assignment prior to the current official rotational 
+          assignment.
 
           - Gained a good understanding of TVA's <mark>eDNA</mark> data historian and the limitations of the contained data.
           - Gained exposure to the <mark>Avantis PRiSM</mark> tool as a method for analyzing data.
@@ -190,7 +192,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             - Learned and operated <mark>Hitachi Lumada APM</mark> to monitor, understand, and provide action to over 6000 transmission system assets.
             - Gained deep understanding of the APIs and backends of TVA systems including <mark>Hitachi Lumada/APM</mark> and <mark>SysAid</mark>.
-            - Extended my knowledge of PowerBI and transmission assets to provide actionable reporting for transmission SMEs, 
+            - Extended my knowledge of <mark>PowerBI</mark> and transmission assets to provide actionable reporting for transmission SMEs, 
             field personnel, and other APC coordinators.
             - Gained understanding of asset monitoring hardware for effectiveness in turn-up and troubleshooting.
 
