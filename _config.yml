@@ -13,7 +13,7 @@ email: lscarmic@tva.gov
 website: lscarmic.github.io
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 # true = site will show the dark theme for everyone
 # false = site will not show the dark theme, but it will still respect the users device preferences
 # never = site will never be shown in the dark theme
