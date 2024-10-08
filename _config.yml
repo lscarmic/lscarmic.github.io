@@ -52,60 +52,63 @@ gtag: "G-D216D2D80L"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Lee and I'm an electrical engineer currently on rotation with the Asset Performance Center here 
-  at TVA. Over the past 17+ years, I've worked to incrementally modernize TVA's telecommunication system. From extending last 
+  Hi, my name is Lee and I'm an electrical engineer currently working as a Program Manager of Transmission Maintenance in the Asset Performance Center
+  at TVA. Over the past 20+ years, I worked to incrementally modernize TVA's telecommunication system. From extending last 
   mile communications to rural areas of the valley, to organizing and automating network device information and configurations, I 
   have always been looking for ways to apply innovative tech solutions to really big workplace challenges. Working
-  smarter to squeeze the best outcomes from every project is the name of the game I play.
+  smarter to squeeze the best outcomes from every project is the name of the game.
 
-  As you'll see below, an interest in using data and automation tools to tackle big problems has led me back to an 
+  As my career progressed, I took an interest in using data and automation tools to tackle big problems has led me back to an 
   academic setting with the goal of formalizing my knowledge in the space of data analytics, machine learning, and, 
   in general, computer programming. As important as any concrete skill, the desire to be a continual learner has been 
   a central theme of my life. I firmly believe having sharp tools is important to doing great work. 
 
-  I've continued this approach into my current rotation where, as a Program Manager, Transmission Maintenance, I've used some of the 
+  I've continued this approach into my current position where I've used some of the 
   same tools, as well as some new ones, to ensure reliable transmission system operation and efficient utilization of resources. 
 
-  The things that I currently have the most experience working with are:  <mark>PowerBI</mark> <mark>Hitachi Lumada/APM</mark> <mark>eDNA</mark>  
-  <mark>SysAid</mark> <mark>Python</mark> <mark>Linux/Unix/OSX</mark>
+  The things that are currently in the front burners of my mind are:  <mark>Azure Functions</mark> <mark>MS SQL</mark> <mark>Hitachi Lumada/APM</mark>   
+  <mark>Python</mark> <mark>Linux/Unix/OSX</mark>
 
 content:
   - title: Major Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left # top-middle
-        title: APM Data Cleanup and Reporting
+        title: Conditon Model Development for Hitachi Lumada/APM
         sub_title: 
         description: | # this will include new lines to allow paragraphs
-          The <mark>Hitachi Lumada/APM</mark> software used by the APC integrates data from several data stores at TVA. Inconsistencies in external data 
-          have created large amounts of data cleanup inside Lumada/APM . Tools like <mark>Microsoft PowerBI</mark> allow us to quickly pinpoint data
-          problems so they can be resolved easily. 
+          The <mark>Hitachi Lumada/APM</mark> software used by the APC gives users the ability to implement custom modeling soltuions to estimate asset health. This requires 
+          a deep understanding of the data available, as well as the ability to develop and implement algorithms to arrive at
+          a meaningful and appropriate conditions score.
 
-          - Leveraged <mark>PowerBI</mark> to identify incorrect bushing data on all relevant transformers and breakers. 
+          - Engaged stakeholders to better understand their asset maintenance and condition need, then translate that into a model that can be used to 
+          predict asset condition.
 
-          PowerBI has also allowed the APC to offer custom reporting to device SMEs. 
+          - Developed a scalable condition model architecture leveraging Python-based Azure Functions to seamlessly integrate into <mark>Hitachi Lumada/APM</mark>. Over 
+          two dozen asset types have been selected for condition modeling. For this to succeed, a scalable and organized approach to model development was required and 
+          implemented.
+
+          - In-house condition modeling has restulted in an estimated savings of 60% of the original projedct cost for the same functionality.
           
-          - Leveraged <mark>PowerBI</mark> to show historic trends of combustible gasses on 161KV Westinghouse Transformers, a very specific 
-          report request that would be otherwise impossible to provide.
-          - Leverage <mark>PowerBI</mark> to better understand my own asset management, asset lifecycle, and condition monitoring responsibilities.
-          Occasionally I'm able to provide information to colleagues that expedites their own data cleanup and issue tracking efforts.
 
+
+    layout: list # Type of content section (list/text)
+    content:
       - layout: left # top-middle
-        title: SysAid-APM Integrations
+        title: ETL Pipeline Development
         sub_title: 
         description: | # this will include new lines to allow paragraphs
-          A great deal of work has been dedicated to modifying TVA's <mark>SysAid</mark> ticketing system to include for support asset condition ticketing
-          as well as normal network operations ticketing. A ticket reporting feature was added to Lumada/APM assets to allow quick 
-          ticketing summaries for any device.
+          A support workflow for the abovementioned condition model development was the development of an ETL pipeline (implemented in <mark>Python</mark>, <mark>MS SQL</mark>, and C#) 
+          to pull data from various TVA data sources, transform it into a usable format, and load it into Lumada/APM. This functionality has enabled the APC 
+          to more quickly incorporate new data sources into the Lumada/APM system. 
+          
+          - An in-house ETL pipeline has dramatically sped up the process of incorporating new data sources into Lumada/APM. My deep understanding of the data and
+          its end use has also allowed the ETL pipleine to be more robust and flexible than oursourced ETL solutions. This results in better model performance and 
+          better service to TVA business units and subject matter experts.
 
-          - Gained understanding of the <mark>SysAid API</mark> and <mark>PowerBI</mark> dataflows provided by other organizations, as well as 
-          Lumada/APM limitations and workarounds.
-          - Provided multiple approaches and solutions for integrating ticket data into Lumada/APM. 
-
-          Also served on a team to roll out asset condition ticketing to the TVA field organizations. This initiative is working to 
-          gain buy-in and coordination between various TVA entities to ensure asset issues are communicated effectively and in such a 
-          way that asset condition trends can be managed to ensure optimum operation and reliability of the TVA transmission system.
-
+          - In-house ETL has restulted in an estimated savings of 60% of the original projedct cost for the same functionality.
+        
+       
       - layout: left # top-middle
         title: CCVT Failure Inquiry
         sub_title: 
@@ -240,7 +243,6 @@ content:
 
           - Current GPA: 4.0
           - Progress - 40% complete
-          - Estimated completion date: Dec 2024 (pace is two classes per year)
       - layout: left
         title: Tennessee Technological University
         caption: 2002 - 2004
@@ -259,7 +261,7 @@ content:
         # # quote: >
         # #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          These were formative years, and form I did.
+          Coursework was centered around digital electronics, telecommunications, and computer networking.
 
 
   - title: A Little More About Me
