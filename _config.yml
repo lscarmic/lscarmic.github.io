@@ -90,10 +90,6 @@ content:
 
           - In-house condition modeling has restulted in an estimated savings of 60% of the original projedct cost for the same functionality.
           
-
-
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left # top-middle
         title: ETL Pipeline Development
         sub_title: 
