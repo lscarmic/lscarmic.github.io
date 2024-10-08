@@ -74,12 +74,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left # top-middle
-        title: Conditon Model Development
+        title: Condition Model Development
         sub_title: 
         description: | # this will include new lines to allow paragraphs
           
-          
-          The <mark>Hitachi Lumada/APM</mark> software used by the APC gives users the ability to implement custom modeling soltuions to estimate 
+          The <mark>Hitachi Lumada/APM</mark> software used by the APC gives users the ability to implement custom modeling solutions to estimate 
           asset health. I led the development of custom predictive models in Hitachi Lumada/APM to enhance asset reliability and optimize 
           maintenance spending. This requires a deep understanding of the data available, as well as the ability to develop and implement algorithms 
           to arrive at a meaningful and appropriate conditions scores.
@@ -87,28 +86,27 @@ content:
           - Engaged stakeholders to better understand their asset maintenance and condition need, then translate that into a model that can be used to 
           predict asset condition.
 
-          - Developed a scalable condition model architecture leveraging <mark>Python-based Azure Functions</mark> to seamlessly integrate into <mark>Hitachi Lumada/APM</mark>. Over 
+          - Developed a scalable condition model architecture leveraging <mark>Python-based Azure Functions</mark> to seamlessly integrate into Hitachi Lumada/APM. Over 
           two dozen asset types have been selected for condition modeling. For this to succeed, a scalable and organized approach to model development was required and 
-          implemented with my direct guidence.
+          implemented with my direct guidance.
 
-          - In-house condition modeling has restulted in an estimated savings of 60% of the original projedct cost for the same functionality. Long term
+          - In-house condition modeling has resulted in an estimated savings of 60% of the original project cost for the same functionality. Long term
           maintenance and outage savings are currently unknown, but anticipated to be significant.
           
       - layout: left # top-middle
         title: ETL Pipeline Development
         sub_title: 
         description: | # this will include new lines to allow paragraphs
-          Led the development of in-house ETL pipeline.
           
           A support workflow for the abovementioned condition model development was the development of an ETL pipeline (implemented in <mark>Python</mark>, <mark>MS SQL</mark>, and C#) 
           to pull data from various TVA data sources, transform it into a usable format, and load it into Lumada/APM. I led the design and implementation
           of this effort, which has enabled the APC to more quickly incorporate new data sources into the Lumada/APM system. 
           
           - An in-house ETL pipeline has dramatically sped up the process of incorporating new data sources into Lumada/APM. My deep understanding of the data and
-          its end use has also allowed the ETL pipleine to be more robust and flexible than oursourced ETL solutions. This results in better model performance and 
+          its end use has also allowed the ETL pipeline to be more robust and flexible than outsourced ETL solutions. This results in better model performance and 
           better service to TVA business units and subject matter experts.
 
-          - In-house ETL has restulted in an estimated savings of 60% of the original projedct cost for the same functionality.
+          - In-house ETL has resulted in an estimated savings of 60% of the original project cost for the same functionality.
         
        
       - layout: left # top-middle
