@@ -74,7 +74,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left # top-middle
-        title: Conditon Model Development for Hitachi Lumada/APM
+        title: Conditon Model Development
         sub_title: 
         description: | # this will include new lines to allow paragraphs
           The <mark>Hitachi Lumada/APM</mark> software used by the APC gives users the ability to implement custom modeling soltuions to estimate asset health. This requires 
