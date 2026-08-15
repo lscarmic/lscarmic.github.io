@@ -8,7 +8,7 @@ version: 2
 
 # Personal info
 name: Lee Carmichael
-title: Electrical Engineer, Program Manager
+title: Electrical Engineer | Software Developer | Technical Leader
 email: lee.carmichael@gmail.com
 website: lscarmic.github.io
 
@@ -25,10 +25,11 @@ gtag: "G-D216D2D80L"
 # About Section
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Lee and I'm an electrical engineer with 21+ years at TVA modernizing telecommunication and
-  transmission asset systems. My career-long pattern is building in-house technical solutions where off-the-shelf
-  tools fall short — from fleet-wide network automation to custom predictive asset-condition models — with a
-  consistent record of large cost savings and measurable data-quality improvements.
+  Electrical engineer, software developer, and technical leader with 21+ years modernizing TVA's transmission
+  asset management and telecommunication systems. I build the systems organizations wish they already had: my
+  career-long pattern is designing practical, maintainable solutions where off-the-shelf tools fall short — from
+  fleet-wide network automation to custom predictive asset-condition models — with a consistent record of large
+  cost savings and measurable data-quality improvements.
 
   I'm currently Program Manager of Transmission Maintenance in the Asset Performance Center, where I serve as
   day-to-day technical lead of our model development team. I also teach as an adjunct professor of electrical
@@ -49,10 +50,11 @@ content:
         title: Engineering Models — Custom Asset Condition Modeling
         sub_title: TVA Asset Performance Center · 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          I lead the buildout of custom "engineering models" that characterize the health of bulk transmission
-          system assets, extending <mark>Hitachi Lumada/APM</mark> beyond its out-of-the-box models (power
-          transformers, breakers, substation batteries). I also serve as day-to-day technical lead of the
-          development team, which has grown from 3 to 5.
+          TVA needed asset-health models its vendor product couldn't provide: <mark>Hitachi Lumada/APM</mark>
+          shipped with models for only power transformers, breakers, and substation batteries. I lead the buildout
+          of an internal modeling capability covering the rest of the bulk transmission system — at roughly 40% of
+          the outsourced cost — and serve as day-to-day technical lead of the development team, which has grown
+          from 3 to 5.
 
           - Shipped production <mark>Python</mark> models for 11+ asset classes: CCVTs, current transformers,
           voltage transformers, combined CT/PT units, transmission lines, transmission line structures, and
@@ -73,10 +75,13 @@ content:
         title: ETL Pipeline Development
         sub_title: TVA Asset Performance Center
         description: | # this will include new lines to allow paragraphs
-          I led the design and implementation of an ETL pipeline (implemented in <mark>Python</mark>,
-          <mark>MS SQL</mark>, and C#) to pull data from various TVA data sources, transform it into a usable
-          format, and load it into Lumada/APM.
+          Lumada/APM is only as good as the data feeding it — and TVA's asset data lived scattered across
+          enterprise systems. I led the design and implementation of an ETL pipeline (implemented in
+          <mark>Python</mark>, <mark>MS SQL</mark>, and C#) integrating data from Maximo, eGIS, Doble, and PowerDB
+          into Lumada/APM.
 
+          - The pipeline feeds data for 52,000 assets across 13 asset types, powering both condition models and
+          daily APC operations.
           - Dramatically sped up incorporation of new data sources; deep understanding of the data and its end use
           made the pipeline more robust and flexible than outsourced ETL solutions, yielding better model
           performance and better service to TVA business units and SMEs.
