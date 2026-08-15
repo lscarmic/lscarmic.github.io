@@ -26,10 +26,7 @@ gtag: "G-D216D2D80L"
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Electrical engineer, software developer, and technical leader with 21+ years modernizing TVA's transmission
-  asset management and telecommunication systems. I build the systems organizations wish they already had: my
-  career-long pattern is designing practical, maintainable solutions where off-the-shelf tools fall short — from
-  fleet-wide network automation to custom predictive asset-condition models — with a consistent record of large
-  cost savings and measurable data-quality improvements.
+  asset management and telecommunication systems. I build the systems organizations wish they already had. My career-long pattern is designing practical, maintainable solutions where off-the-shelf tools fall short, from fleet-wide network automation to custom asset-health models.
 
   I'm currently Program Manager of Transmission Maintenance in the Asset Performance Center, where I serve as
   day-to-day technical lead of our model development team. I also teach as an adjunct professor of electrical
