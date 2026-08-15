@@ -26,15 +26,16 @@ gtag: "G-D216D2D80L"
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Electrical engineer, software developer, and technical leader with 21+ years modernizing TVA's transmission
-  asset management and telecommunication systems. I build the systems organizations wish they already had. My career-long pattern is designing practical, maintainable solutions where off-the-shelf tools fall short, from fleet-wide network automation to custom asset-health models.
+  asset management and telecommunication systems. I build the systems organizations wish they already had. My 
+  career-long pattern is designing practical, maintainable solutions where off-the-shelf tools fall short, from 
+  fleet-wide network automation to custom asset-health models.
 
   I'm currently Program Manager of Transmission Maintenance in the Asset Performance Center, where I serve as
   day-to-day technical lead of our model development team. I also teach as an adjunct professor of electrical
   engineering at the University of Tennessee at Chattanooga.
 
-  An interest in using data and automation to tackle big problems led me back to an academic setting to formalize
-  my knowledge in data analytics, machine learning, and computer programming. As important as any concrete skill,
-  the desire to be a continual learner has been a central theme of my life.
+  That same interest in data and automation led me back to graduate study in computer science and machine 
+  learning, complementing two decades of hands-on electrical engineering and telecommunications experience.
 
   The tools I currently work with most: <mark>Python</mark> <mark>Azure Functions</mark> <mark>MS SQL</mark>
   <mark>Hitachi Lumada/APM</mark> <mark>PowerBI</mark> <mark>Linux/Unix/OSX</mark>
@@ -68,6 +69,7 @@ content:
           new asset types.
           - In-house development saved an estimated 60% versus the original outsourced project cost.
 
+
       - layout: left
         title: ETL Pipeline Development
         sub_title: TVA Asset Performance Center
@@ -79,22 +81,9 @@ content:
 
           - The pipeline feeds data for 52,000 assets across 13 asset types, powering both condition models and
           daily APC operations.
-          - Dramatically sped up incorporation of new data sources; deep understanding of the data and its end use
-          made the pipeline more robust and flexible than outsourced ETL solutions, yielding better model
-          performance and better service to TVA business units and SMEs.
+          - Created a reusable ingestion framework that reduced the effort required to onboard new asset classes 
+          and data sources while keeping transformation logic under direct engineering control.
           - In-house ETL saved an estimated 60% of the original project cost for the same functionality.
-
-      - layout: left
-        title: APM Data Cleanup and Reporting
-        sub_title: TVA Asset Performance Center
-        description: | # this will include new lines to allow paragraphs
-          Inconsistencies in external data stores create large amounts of data cleanup inside Lumada/APM. Tools
-          like <mark>Microsoft PowerBI</mark> allow the APC to quickly pinpoint data problems so they can be
-          resolved easily.
-
-          - Leveraged <mark>PowerBI</mark> to identify incorrect bushing data on all relevant transformers and breakers.
-          - Built custom SME reporting otherwise impossible to provide — e.g., historic combustible-gas trends on
-          161KV Westinghouse transformers.
 
       - layout: left
         title: SysAid-APM Ticketing Integration
@@ -141,6 +130,16 @@ content:
           accurate compliance and security reporting.
 
       - layout: left
+        title: Open Source — Network Automation Ecosystem
+        sub_title: ntc-templates · Netmiko
+        description: | # this will include new lines to allow paragraphs
+          - Contributed a new TextFSM parsing template (Cisco IOS show ip flow top-talkers) with test fixtures to
+          <mark>ntc-templates</mark>, the community-standard CLI parsing library — merged upstream (PR #373, 2019).
+          - Developed a custom <mark>Netmiko</mark> driver enabling SSH automation of Siemens/RuggedCom ROS
+          substation-hardened switches, integrated into <mark>Nornir</mark> as a custom task plugin and deployed
+          extensively in TVA internal automation.
+
+      - layout: left
         title: IP Address Management System Upgrade
         sub_title: TVA Transmission
         description: | # this will include new lines to allow paragraphs
@@ -154,38 +153,9 @@ content:
           continuous data management, and reporting — including a simplified <mark>Django</mark>-powered web
           interface for field personnel.
 
-      - layout: left
-        title: LPC Interruptible Product (IP) and Flexibility Programs
-        sub_title: TVA Transmission
-        description: | # this will include new lines to allow paragraphs
-          TVA's interruptible-demand and distributed-generation programs require communications paths between TVA
-          and the LPC metering point.
 
-          - Technical lead and point of contact between all LPCs and TVA, supporting device turn-up and
-          configuration.
-          - Operated the Transmission Test Lab endpoint for proof of concept and documentation of new gateway
-          devices in support of Central Operations.
-          - Acted as a technical representative between customers and their device manufacturers.
 
-      - layout: left
-        title: Open Source — Network Automation Ecosystem
-        sub_title: ntc-templates · Netmiko
-        description: | # this will include new lines to allow paragraphs
-          - Contributed a new TextFSM parsing template (Cisco IOS show ip flow top-talkers) with test fixtures to
-          <mark>ntc-templates</mark>, the community-standard CLI parsing library — merged upstream (PR #373, 2019).
-          - Developed a custom <mark>Netmiko</mark> driver enabling SSH automation of Siemens/RuggedCom ROS
-          substation-hardened switches, integrated into <mark>Nornir</mark> as a custom task plugin and deployed
-          extensively in TVA internal automation.
 
-      - layout: left
-        title: CCVT Failure Inquiry
-        sub_title: TVA rotational assignment
-        description: | # this will include new lines to allow paragraphs
-          CCVT failures have plagued TVA for years. As an early exposure to the problem, I completed a small
-          rotational assignment extracting meaning from the available data.
-
-          - Gained a solid understanding of TVA's <mark>eDNA</mark> data historian and the limitations of the
-          contained data, with exposure to the <mark>Avantis PRiSM</mark> analytics tool.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -198,7 +168,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             - Day-to-day technical lead of the Asset Performance Center's model development team (grown from 3
             to 5), managing daily execution, scheduling milestones, and delivery.
-            - Operate <mark>Hitachi Lumada/APM</mark> to monitor, understand, and drive action on over 6,000
+            - Operate <mark>Hitachi Lumada/APM</mark> to monitor, understand, and drive action on over 52,000
             transmission system assets.
             - Deep understanding of the APIs and backends of TVA systems including <mark>Hitachi Lumada/APM</mark>
             and <mark>SysAid</mark>.
